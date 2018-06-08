@@ -9,7 +9,7 @@ if(init_str.length!==res_str.length){
     flag=1;
 }
 if(flag!==1)
-    for(var i=1;i<init_str.length/2;i++){
+    for(var i=1;i<=init_str.length/2;i++){
         init_index = 0;
         res_index = 1;
         while(init_index<init_str.length){
@@ -32,7 +32,7 @@ if(flag!==1)
         }
     }
 if(flag!==1)
-    for(var i=1;i<init_str.length/2;i++){
+    for(var i=1;i<=init_str.length/2;i++){
         init_index = 0;
         res_index = 1;
         while(init_index<init_str.length){
